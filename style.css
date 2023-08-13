@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: burlywood;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.container{
+ width: 400px;
+background-color: rgb(154, 159, 160);
+ border-radius: 10px;
+ padding: 10px;
+}
+.container .info{
+    margin: 10px 5px;
+
+}
+.container .info h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+img{
+    width: 25%;
+    height: 25%;
+}
+form{
+    
+    display: flex;
+    flex-direction:column;
+    margin: 15px 10px;
+}
+.container form :where( input, button){
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+.container form input{
+    border: 1px solid;
+}
+.container form button{
+    background-color: antiquewhite;
+    color:rgb(82, 59, 1);
+}
+.container .qr-code{
+    border: 1px solid lightgray;
+    text-align: center;
+
+}
+.hidden{
+    display: none;
+}
+
+/* SECONDE GENERATOR */
+.containar2{
+    background-color: darkseagreen;
+    margin-top: 300px;
+    height: 100vh;
+}
+.info2{
+    margin: 10px 15px;
+}
+.info2 p{
+    margin-top: 15px;
+}
+.form2 :where(button,input){
+   padding: 10px;
+    margin: 5px 30px;
+    border-radius: 5px;
+ font-size: 16x;
+ outline: 0;
+}
